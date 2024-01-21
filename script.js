@@ -272,7 +272,7 @@ btnLogin.addEventListener('click', function (e) {
     // Update UI
     updateUI(currentAccount);
   } else {
-    alert('Invalid Username acount or Password. Please try again.');
+    alert('Invalid Username or Password. Please try again.');
   }
 });
 
