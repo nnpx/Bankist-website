@@ -271,6 +271,8 @@ btnLogin.addEventListener('click', function (e) {
 
     // Update UI
     updateUI(currentAccount);
+  } else {
+    alert('Invalid Username acount or Password. Please try again.');
   }
 });
 
