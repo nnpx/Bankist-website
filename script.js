@@ -360,3 +360,7 @@ btnSort.addEventListener('click', function (e) {
   displayMovements(currentAccount, !sorted);
   sorted = !sorted;
 });
+
+alert(
+  'Sample info for logging in: \nAccount1: (Username: js, Password: 1111), \nAccount2: (Username: jd, Password: 2222)'
+);
